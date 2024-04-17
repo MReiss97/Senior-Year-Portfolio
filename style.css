@@ -647,13 +647,6 @@ margin-left: 680px;
   white-space: nowrap;
 }
 
-.resume1{
-  border: solid 2px;
-  border-color: white;
-  border-radius: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
 
 .skill-box{
   width: 100%;
@@ -738,4 +731,25 @@ margin-left: 680px;
   border: solid 2px;
   border-color: white;
   border-radius: 15px;
+}
+
+.resume1{
+  border: solid 2px;
+  border-color: white;
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(49, 49, 49);
+}
+
+p {
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+li {
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
