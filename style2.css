@@ -190,6 +190,56 @@ h1 {
     width: 1200px;
 }
   
+.about1{
+  font-size: 80px;
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+  
+.aboutText1{
+  border: solid;
+  border-color: white;
+  border-radius: 8%;
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 22px;
+}
 
-  
-  
+.max1{
+  border: solid;
+  border-color: white;
+  border-radius: 15%;
+  height: 600px;
+  width: 250px;
+}
+
+.css-button-neumorphic1 {
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-style: normal;
+  min-width: 250px;
+  height: 80px;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: rgb(49, 49, 49) !important;
+  box-shadow: 2px 2px 4px #c8d0e7, -1px -1px 3px #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .css-button-neumorphic1:active {
+  box-shadow: inset 1px 1px 3px #e5e8f1, inset -1px -1px 3px #fff;
+}
