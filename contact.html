@@ -59,53 +59,45 @@
                 <div class="row">
                     <p class="about1 text-white text-center">Contact Me</p>
                 </div>
-                <div class="row">
-                    <div class="col"></div>
-                    <div class="col-md-8">
-                    <form action="action_page.php" class="form2">
-                        <div class="row">
-                            <div class="col"></div>
-                            <div class="col">
-                                <p class="form1 text-white">Name:</p>
-                                <input type="text" id="fname" name="name" placeholder="Your name" class="round">
+                <div class="container">
+
+                    <div class="row gy-5 gx-lg-5">
+            
+                      
+            
+                      <div class="col-lg-8">
+            
+                        <form action="contact.php" method="post" role="form" class="php-email-form">
+                          <div class="row">
+                            <div class="col-md-6 form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                             </div>
-                            <div class="col"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"></div>
-                            <div class="col">
-                                <p class="form1 text-white">Email:</p>
-                                <input type="text" id="lname" name="email" placeholder="Your email...">
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                             </div>
-                            <div class="col"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"></div>
-                            <div class="col mt-3 mb-5">
-                                <p class="form1  text-white">Phone:</p>
-                                <input type="text" id="lname" name="phone" placeholder="Your phone...">
-                            </div>
-                            <div class="col"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col"></div>
-                            <div class="col text-center mb-5">
-                                <input type="submit" value="Submit" class="css-button-neumorphic1">
-                            </div>
-                            <div class="col"></div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col"></div>
-                </div>
+                          </div>
+                          <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="organization" id="organization"
+                              placeholder="Organization / Company Name" required>
+                          </div>
+                          <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                          </div>
+                          <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Thank you for reaching out, Someone will be in contact with you ASAP about
+                              your email.</div>
+                          </div>
+                          <div class="text-center"><button type="submit" onclick="gtag_report_conversion()">Send Message</button>
+                          </div>
+                        </form>
+            
+                      </div><!-- End Contact Form -->
             </div>
         </div>
     </div>
 
-    </div>
-    </div>
-    </div>
-    </div>
     <script src="/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="//tympanus.net/codrops/adpacks/demoad.js"></script>
