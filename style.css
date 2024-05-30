@@ -1,5 +1,10 @@
 html {
   scroll-behavior: smooth;
+  cursor: none;
+}
+
+:root {
+  scroll-behavior: smooth;
 }
 
 .carousel-inner img {
@@ -753,3 +758,52 @@ li {
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* Custom cursor styles */
+.mf-cursor {
+  color: transparent;
+  border: 2px solid white; /* Thin white border */
+  background-color: transparent; /* Transparent background */
+  border-radius: 50%; /* Optional: Make the cursor circular */
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  pointer-events: none; /* Ensure the cursor does not block interactions */
+  position: absolute; /* Required for positioning */
+  transform: translate(-50%, -50%); /* Center the cursor on the pointer */
+  transition: transform 0.15s ease; /* Smooth transition */
+  z-index: 9999; /* Ensure the cursor is on top */
+}
+
+
+
+
+.scroll-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 995;
+  background: red;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.scroll-top i {
+  font-size: 24px;
+  color: var(--color-white);
+  line-height: 0;
+}
+
+.scroll-top:hover {
+  background: rgba(var(--color-primary-rgb), 0.85);
+  color: var(--color-white);
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
